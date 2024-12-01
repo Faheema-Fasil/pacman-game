@@ -1,0 +1,56 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #222;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.game-container {
+  position: relative;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  background-color: #000;
+}
+
+.game-over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.game-over h2 {
+  font-size: 30px;
+}
+
+.game-over button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.game-over button:hover {
+  background-color: #00796b;
+}
